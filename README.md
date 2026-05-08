@@ -368,7 +368,7 @@ And to every developer who's ever struggled with a cryptic error message — thi
 - 🐛 **Report a bug**: [Open an Issue](https://github.com/PhantomTee/arcane-studio/issues)
 - 💡 **Request a feature**: [Start a Discussion](https://github.com/PhantomTee/arcane-studio/discussions)
 - 💬 **Chat with me**: [Chat on Telegram](https://t.me/montellecky) *(optional)*
-- 🐦 **Follow updates**: [@your-handle on X/Twitter](https://twitter.com/0x___Ygen) *(optional)*
+- 🐦 **Follow updates**: [X/Twitter](https://twitter.com/0x___Ygen) *(optional, but please do)*
 
 ---
 
