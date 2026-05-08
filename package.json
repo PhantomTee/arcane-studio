@@ -1,0 +1,74 @@
+{
+  "name": "arcane-studio",
+  "displayName": "Arcane Studio",
+  "description": "Solana + Arcium confidential computing IDE",
+  "version": "0.1.0",
+  "publisher": "phantomtee",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "icon": "icon.png",
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "solana",
+    "arcium",
+    "confidential-computing",
+    "rust",
+    "blockchain"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "arcane.openDashboard",
+        "title": "Arcane Studio: Launch Dashboard",
+        "icon": "$(rocket)"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "arcane-actions",
+          "name": "Arcane Studio",
+          "icon": "$(rocket)"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "arcane.openDashboard",
+          "when": "view == arcane-actions"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.24.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@arcium-hq/client": "^0.9.7"
+  },
+  "galleryBanner": {
+    "color": "#07080d",
+    "theme": "dark"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/PhantomTee/arcane-dev-kit.git"
+}
+}

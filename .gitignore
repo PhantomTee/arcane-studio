@@ -1,0 +1,34 @@
+# ── Node & Build ──────────────────────────────────────────────
+node_modules/
+out/
+dist/
+package-lock.json
+*.tsbuildinfo
+
+# ── VS Code ──────────────────────────────────────────────────
+.vscode-test/
+*.vsix
+# Keep .vscode/ config (launch/tasks) but ignore local state:
+.vscode/*.local
+
+# ── Sensitive / Wallet Files (Explicit & Safe) ───────────────
+id.json
+keypair.json
+wallet.json
+tmp_key.json
+*.pem
+*.key
+# Solana CLI creates these in ~/.config/solana, but workspace copies must never be committed
+
+# ── Arcium / Rust / Solana ───────────────────────────────────
+target/
+.anchor/
+.solana/
+# Cargo.lock is usually committed for deterministic builds, but safe to ignore here
+# Cargo.lock
+
+# ── OS & Misc ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "Node16",
+        "moduleResolution": "Node16", 
+        "target": "ES2022",
+        "outDir": "out",             // <--- THIS IS THE MAGIC FIX
+        "lib": [
+            "ES2022",
+            "DOM" 
+        ],
+        "types": [
+            "node",
+            "vscode"
+        ],
+        "sourceMap": true,
+        "rootDir": "src",
+        "strict": true
+    }
+}
