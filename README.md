@@ -14,7 +14,7 @@
 
 ---
 
-## 🌟 What Is Arcane Studio?
+##  What Is Arcane Studio?
 
 If you're new to blockchain development, here's the simple version:
 
@@ -25,7 +25,7 @@ If you're new to blockchain development, here's the simple version:
 | **Confidential Computing** | Doing calculations on encrypted data so no one (not even the blockchain) can see the inputs, only the result |
 | **Arcane Studio** | A friendly VS Code extension that guides you through setting up, building, and deploying Arcium programs — no command-line expertise required |
 
-🎯 **You don't need to be a cryptography expert.** Arcane Studio handles the complex parts so you can focus on *what* you want to build.
+ **You don't need to be a cryptography expert.** Arcane Studio handles the complex parts so you can focus on *what* you want to build.
 
 ---
 
@@ -34,35 +34,35 @@ If you're new to blockchain development, here's the simple version:
 ### 🛠️ One-Click Setup
 - Auto-detects your operating system (Windows, macOS, or Linux)
 - Provides copy-paste or one-click terminal commands to install:
-  - ✅ Rust (the language Solana uses)
-  - ✅ Solana CLI (tools to talk to the blockchain)
-  - ✅ Arcium CLI (tools for confidential computing)
-  - ✅ Anchor (Solana development framework)
-  - ✅ Node.js (for running setup scripts)
+  -  Rust (the language Solana uses)
+  -  Solana CLI (tools to talk to the blockchain)
+  -  Arcium CLI (tools for confidential computing)
+  -  Anchor (Solana development framework)
+  -  Node.js (for running setup scripts)
 
-### 🔐 Guided Arcium Workflow
+###  Guided Arcium Workflow
 Follow a clear 5-step process — no guessing what to do next:
 
 ```
-1️⃣ Initialize Project  →  Creates your project folder + config
-2️⃣ Build Circuits     →  Compiles your confidential logic
-3️⃣ Test Locally       →  Run tests on your machine (free, no real SOL)
-4️⃣ Deploy MXE         →  Launch your program + confidential engine on-chain
-5️⃣ Initialize Logic   →  Tell the network what your program can do
+1 Initialize Project  →  Creates your project folder + config
+2 Build Circuits     →  Compiles your confidential logic
+3 Test Locally       →  Run tests on your machine (free, no real SOL)
+4 Deploy MXE         →  Launch your program + confidential engine on-chain
+5 Initialize Logic   →  Tell the network what your program can do
 ```
 
-### 🧪 Smart Developer Tools
+###  Smart Developer Tools
 - **Circuit Scaffolder**: Generate starter code for private voting, sealed auctions, encrypted sums, and more
 - **Error Explainer**: See human-friendly messages when something goes wrong (no more cryptic compiler errors!)
 - **Log Filter**: Focus on errors, successes, or see everything — with persistent history
 - **Arcium.toml Viewer**: Peek at your config file without leaving the dashboard
 
-### 💡 Quality-of-Life Enhancements
-- 🔄 **Persistent State**: Your logs, program IDs, and settings save between VS Code sessions
-- ⚡ **Auto-Airdrop Prompt**: Gets reminded to get test SOL when your wallet is empty
-- 🔗 **Explorer Links**: Click to view your deployed program on Solana Explorer
-- 📁 **Multi-Project Support**: Switch between different project folders seamlessly
-- 🎨 **Beautiful UI**: Dark-themed, animated, and designed for long coding sessions
+###  Quality-of-Life Enhancements
+-  **Persistent State**: Your logs, program IDs, and settings save between VS Code sessions
+-  **Auto-Airdrop Prompt**: Gets reminded to get test SOL when your wallet is empty
+-  **Explorer Links**: Click to view your deployed program on Solana Explorer
+-  **Multi-Project Support**: Switch between different project folders seamlessly
+-  **Beautiful UI**: Dark-themed, animated, and designed for long coding sessions
 
 ---
 
@@ -77,7 +77,7 @@ Follow a clear 5-step process — no guessing what to do next:
 3. Run the installer and follow the prompts
 4. Open VS Code when it's done
 
-✅ *VS Code is free, open-source, and works on Windows, macOS, and Linux.*
+ *VS Code is free, open-source, and works on Windows, macOS, and Linux.*
 
 ### Step 2: Download the Extension File
 
@@ -122,43 +122,43 @@ code --install-extension arcane-studio-0.1.0.vsix
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
-### 🎯 Goal: Run your first confidential circuit in <10 minutes
+###  Goal: Run your first confidential circuit in <10 minutes
 
-#### 1️⃣ Open a Project Folder
+####  Open a Project Folder
 Arcane Studio works inside a project folder.
 
 - If you have a project: `File` → `Open Folder...` → select your project
 - If you're starting fresh: Create a new folder anywhere, then open it in VS Code
 
-#### 2️⃣ Launch Arcane Studio
+####  Launch Arcane Studio
 - Click the ⬡ **Arcane Studio** icon in the left sidebar  
   *or*  
 - Press `Ctrl+Shift+P` → type `Arcane Studio: Open Dashboard` → press Enter
 
-#### 3️⃣ Follow the "★ Start Here" Tab
+####  Follow the "★ Start Here" Tab
 The extension will guide you:
 
 ```
-✅ Step 1: Install Tools
+ Step 1: Install Tools
    • Click "Run in Terminal" next to each tool
    • Wait for the green "✓ Done" badge
 
-✅ Step 2: Create a Wallet
+ Step 2: Create a Wallet
    • Click "Run in Terminal" for the keygen command
    • Your wallet address will appear in the dashboard
 
-✅ Step 3: Get Test SOL
+ Step 3: Get Test SOL
    • Click "⚡ Airdrop" → "2 SOL"
    • Wait ~15 seconds — your balance will update
 
-✅ Step 4: Initialize Arcium Project
+ Step 4: Initialize Arcium Project
    • Type a project name (e.g., `my-private-vote`)
    • Click "▶ Run"
    • Watch for: "✓ Project initialized"
 
-✅ Step 5: Build & Test
+ Step 5: Build & Test
    • Click "▶ arcium build"
    • Then click "▶ arcium test"
    • Green checkmarks = success! 🎉
@@ -166,16 +166,16 @@ The extension will guide you:
 
 #### 4️⃣ You're Ready to Build!
 Now you can:
-- ✏️ Edit your circuit logic in `encrypted-ixs/`
-- 🔄 Rebuild anytime with one click
-- 🌐 Deploy to devnet when you're ready
-- 🔍 View results on Solana Explorer
+-  Edit your circuit logic in `encrypted-ixs/`
+-  Rebuild anytime with one click
+-  Deploy to devnet when you're ready
+-  View results on Solana Explorer
 
 ---
 
 ## 📘 How to Use: Detailed Walkthrough
 
-### 🏠 Dashboard Tabs Explained
+###  Dashboard Tabs Explained
 
 | Tab | What It Does | When to Use It |
 |-----|-------------|----------------|
@@ -196,17 +196,17 @@ Now you can:
 3. Click **▶ Start Validator** (or **⏹ Stop** to shut it down)
 4. Watch the log for: `✓ Validator is LIVE`
 
-#### 💰 Request Test SOL (Airdrop)
+####  Request Test SOL (Airdrop)
 *Why?* You need SOL to pay for deploying programs — but test networks give it away free.
 
-1. Go to **◉ Status** → Wallet card
-2. Click **⚡ Airdrop**
+1. Go to ** Status** → Wallet card
+2. Click ** Airdrop**
 3. Choose an amount (1, 2, or 5 SOL)
 4. Wait ~15 seconds — your balance updates automatically
 
 > 💡 Tip: On devnet, you can airdrop up to 2 SOL every ~60 seconds.
 
-#### 🧱 Build Your Circuit
+####  Build Your Circuit
 *Why?* Turns your Rust/Arcis code into a deployable program.
 
 1. Go to **⬡ Build** tab
@@ -216,7 +216,7 @@ Now you can:
    Go to **⬡ Arcium** → Step 2 → Click **▶ arcium build**
 4. Watch the log — green = success, red = click the error for help
 
-#### 🚀 Deploy to Devnet
+#### Deploy to Devnet
 *Why?* Share your program with others or test in a real network environment.
 
 1. Go to **↑ Deploy** tab
@@ -243,15 +243,15 @@ Now you can:
 
 > 💡 On Windows: After installing, you may need to **restart VS Code** for PATH changes to take effect.
 
-### 🔴 Validator Won't Start / "Address already in use"
+###  Validator Won't Start / "Address already in use"
 **Cause**: Port 8899 is busy (another Solana process is running).
 
 **Fix**:
 1. Close other terminal windows running `solana-test-validator`
-2. Or click **⏹ Stop Validator** in Arcane Studio, wait 5 seconds, then try again
+2. Or click ** Stop Validator** in Arcane Studio, wait 5 seconds, then try again
 3. Still stuck? Restart your computer and try once more
 
-### 💸 Airdrop Fails / "Account not found"
+### Airdrop Fails / "Account not found"
 **Cause**: You're trying to airdrop on mainnet (real money network) — airdrops only work on test networks.
 
 **Fix**:
@@ -259,7 +259,7 @@ Now you can:
 2. Select **Devnet** or **Localnet**
 3. Try the airdrop again
 
-> ✅ Arcane Studio now adds `--url devnet` automatically to prevent this!
+>  Arcane Studio now adds `--url devnet` automatically to prevent this!
 
 ### 🧩 Build Error: "cannot find type `ArcisU64`" or similar
 **Cause**: Missing import statement in your circuit file.
@@ -283,14 +283,14 @@ Now you can:
 4. Wait for "✓ Project initialized"
 5. The warning will disappear
 
-### 🔄 Extension Doesn't Load / Blank Dashboard
+###  Extension Doesn't Load / Blank Dashboard
 **Fix**:
 1. Press `Ctrl+Shift+P` → type `Developer: Reload Window` → press Enter
 2. If still blank: Uninstall the extension, restart VS Code, then reinstall from the `.vsix` file
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Love Arcane Studio? Want to make it even better? Contributions are welcome! 🙌
 
@@ -328,20 +328,20 @@ Love Arcane Studio? Want to make it even better? Contributions are welcome! 🙌
 
 ---
 
-## 🔐 Privacy & Security
+##  Privacy & Security
 
 Arcane Studio is **open-source and transparent**:
 
-- ✅ All code is visible in this repository — no hidden telemetry
-- ✅ No data is sent to external servers (except when you explicitly deploy to Solana)
-- ✅ Terminal commands are shown before execution — you're always in control
-- ✅ Wallet keys stay on your machine — the extension never accesses your private key
+-  All code is visible in this repository — no hidden telemetry
+-  No data is sent to external servers (except when you explicitly deploy to Solana)
+-  Terminal commands are shown before execution — you're always in control
+-  Wallet keys stay on your machine — the extension never accesses your private key
 
-> 🔒 Your security matters. If you find a vulnerability, please email [phantomtee54@gmail.com] responsibly.
+>  Your security matters. If you find a vulnerability, please email [phantomtee54@gmail.com] responsibly.
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and share.
 
@@ -353,10 +353,10 @@ See [LICENSE](LICENSE) for details.
 
 Arcane Studio exists because of amazing open-source projects and communities:
 
-- 🦀 [Rust](https://rust-lang.org) — The language powering Solana
+-  [Rust](https://rust-lang.org) — The language powering Solana
 - ⬡ [Solana](https://solana.com) — The high-performance blockchain
-- 🔐 [Arcium](https://arcium.com) — Making confidential computing accessible
-- 🪝 [Anchor](https://anchor-lang.com) — The Solana development framework
+-  [Arcium](https://arcium.com) — Making confidential computing accessible
+-  [Anchor](https://anchor-lang.com) — The Solana development framework
 - 💙 [VS Code](https://code.visualstudio.com) — The editor that makes extensions possible
 
 And to every developer who's ever struggled with a cryptic error message — this one's for you. 🫶
@@ -365,10 +365,10 @@ And to every developer who's ever struggled with a cryptic error message — thi
 
 ## 📬 Get in Touch
 
-- 🐛 **Report a bug**: [Open an Issue](https://github.com/PhantomTee/arcane-studio/issues)
-- 💡 **Request a feature**: [Start a Discussion](https://github.com/PhantomTee/arcane-studio/discussions)
-- 💬 **Chat with me**: [Chat on Telegram](https://t.me/montellecky) *(optional)*
-- 🐦 **Follow updates**: [X/Twitter](https://twitter.com/0x___Ygen) *(optional, but please do)*
+-  **Report a bug**: [Open an Issue](https://github.com/PhantomTee/arcane-studio/issues)
+-  **Request a feature**: [Start a Discussion](https://github.com/PhantomTee/arcane-studio/discussions)
+-  **Chat with me**: [Chat on Telegram](https://t.me/montellecky) *(optional)*
+-  **Follow updates**: [X/Twitter](https://twitter.com/0x___Ygen) *(optional, but please do)*
 
 ---
 
